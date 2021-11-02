@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row class="header-main-row">
+        <img class="logo" attr.alt="{{'HEADER.MAIN_LOGO_ALT' | translate}}" src="/assets/logo-white.svg">
+        <div class="desktop-main-menu">
+            <app-main-menu></app-main-menu>
+        </div>
+        <button mat-icon-button class="menu-icon" [matMenuTriggerFor]="mainMenu"
+            attr.aria-label="{{'HEADER.MENU_BUTTON_ALT' | translate}}">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <mat-menu #mainMenu="matMenu">
+            <app-main-menu></app-main-menu>
+        </mat-menu>
+    </mat-toolbar-row>
+</mat-toolbar>

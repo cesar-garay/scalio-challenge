@@ -1,0 +1,17 @@
+@import "../../../variables";
+
+:host {
+    padding: $defaultPadding;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    @media only screen and (min-width: $mobileBreakpoint) {
+        flex-direction: row;
+    }
+
+    .mat-button-toggle-group {
+        transform: scale(0.7);
+    }
+}

@@ -1,0 +1,21 @@
+<mat-drawer-container class="main-container">
+    <mat-drawer-content>
+        <section class="content">
+            <h1>{{'MAIN_BODY.TITLE' | translate}}</h1>
+            <h2>{{'MAIN_BODY.SUBTITLE' | translate}}</h2>
+            <app-search (searchFormValues)="searchValueChange($event)"></app-search>
+            <app-list [searchResult]="searchResponse$" (viewUserDetails)="viewUserDetails($event)"
+                (pageSortChanged)="pageSortChanged($event)"></app-list>
+        </section>
+    </mat-drawer-content>
+    <mat-drawer class="details-sidenav" mode="side" position="end" [opened]="openDetails" [disableClose]="true"
+        mode="over">
+        <app-details *ngIf="openDetails" [user]="selectedUserDetails"></app-details>
+
+        <button mat-raised-button color="accent" class="close-details-button" (click)="openDetails = false"
+            attr.aria-label="{{'MAIN_BODY.CLOSE_BTN' | translate}}">{{'MAIN_BODY.CLOSE_BTN' |
+            translate}}</button>
+
+    </mat-drawer>
+
+</mat-drawer-container>

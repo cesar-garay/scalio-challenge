@@ -1,0 +1,20 @@
+@import "../../../variables";
+
+:host {
+    width: 100%;
+    .grid-container {
+        margin-top: $defaultPadding;
+        table {
+            width: 100%;
+            .empty-cell {
+                text-align: center;
+            }
+            .avatar_img {
+                width: 48px;
+            }
+            .action-header {
+                width: 45px;
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+<mat-button-toggle-group name="fontStyle" [formControl]="languageSelector" aria-label="Font Style">
+    <mat-button-toggle value="en">{{'MAIN_MENU.LANG_SELECTOR.EN' | translate}}</mat-button-toggle>
+    <mat-button-toggle value="es">{{'MAIN_MENU.LANG_SELECTOR.ES' | translate}}</mat-button-toggle>
+</mat-button-toggle-group>
+
+<mat-slide-toggle [formControl]="toggleDarkMode">{{'MAIN_MENU.DARK_MODE' | translate}}</mat-slide-toggle>

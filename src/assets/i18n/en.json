@@ -1,0 +1,60 @@
+{
+    "MAIN": {
+        "ARIA_LABEL": "Main content"
+    },
+    "HEADER": {
+        "MENU_BUTTON_ALT": "Mobile menu icon",
+        "MAIN_LOGO_ALT": "Scalio Logo"
+    },
+    "MAIN_MENU": {
+        "DARK_MODE": "Dark Mode",
+        "LANG_SELECTOR": {
+            "EN": "en",
+            "ES": "es"
+        }
+    },
+    "MAIN_BODY": {
+        "TITLE": "SCALIO FE challenge",
+        "SUBTITLE": "Search and list github users",
+        "CLOSE_BTN": "Close"
+    },
+    "SEARCH_FORM": {
+        "LOGIN_LABEL": "Login Name",
+        "REQUIRED_MESSAGE": "The filed login is required for search",
+        "SEARCH_BTN_LABEL": "Search"
+    },
+    "LIST": {
+        "GRID": {
+            "LOGIN_HEADER": "Login",
+            "AVATAR_HEADER": "Avatar",
+            "TYPE_HEADER": "Type",
+            "VIEW_DETAILS": "View Details"
+        },
+        "EMPTY_ROW": "Empty list",
+        "PAGINATOR_LABEL": "Pagination list"
+    },
+    "DETAILS": {
+        "LABELS": {
+            "LOGIN": "Login",
+            "ID": "Id",
+            "NODE_ID": "Node ID",
+            "AVATAR_URL": "Avatar URL",
+            "HOME_URL": "Home Url",
+            "TYPE": "Type",
+            "SITE_ADMIN": "Site Admin",
+            "SCORE": "Score"
+        },
+        "LINKS": {
+            "AVATAR": "avatar link",
+            "HOME_URL": "user link"
+        }
+    },
+    "PAGINATOR": {
+        "ITEMS_PER_PAGE": "Items",
+        "FIRST_PAGE": "First Page",
+        "LAST_PAGE": "Last Page",
+        "PREV_PAGE": "Previous Page",
+        "NEXT_PAGE": "Next Page",
+        "RANGE": "Page {{first}} of {{last}}"
+    }
+}
