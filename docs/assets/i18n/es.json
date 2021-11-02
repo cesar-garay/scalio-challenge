@@ -1,0 +1,60 @@
+{
+    "HEADER": {
+        "MENU_BUTTON_ALT": "Icono menu movil",
+        "MAIN_LOGO_ALT": "Logo Scalio"
+    },
+    "MAIN_MENU": {
+        "DARK_MODE": "Modo Oscuro",
+        "LANG_SELECTOR": {
+            "EN": "en",
+            "ES": "es"
+        }
+    },
+    "MAIN": {
+        "ARIA_LABEL": "Contenido Principal"
+    },
+    "MAIN_BODY": {
+        "TITLE": "SCALIO desafio desarrollo Frontend",
+        "SUBTITLE": "Busca y lista usuarios de github",
+        "CLOSE_BTN": "Cerrar"
+    },
+    "SEARCH_FORM": {
+        "LOGIN_LABEL": "Nombre de login",
+        "REQUIRED_MESSAGE": "El campo login es requerido para la busqueda",
+        "SEARCH_BTN_LABEL": "Buscar"
+    },
+    "LIST": {
+        "GRID": {
+            "LOGIN_HEADER": "Acceso",
+            "AVATAR_HEADER": "Avatar",
+            "TYPE_HEADER": "Tipo",
+            "VIEW_DETAILS": "Ver Detalles"
+        },
+        "EMPTY_ROW": "Lista Vacia",
+        "PAGINATOR_LABEL": "Paginador de lista"
+    },
+    "DETAILS": {
+        "LABELS": {
+            "LOGIN": "Login",
+            "ID": "Id",
+            "NODE_ID": "Node ID",
+            "AVATAR_URL": "Avatar URL",
+            "HOME_URL": "Url Home",
+            "TYPE": "Tipo",
+            "SITE_ADMIN": "Sitio administrador",
+            "SCORE": "Puntaje"
+        },
+        "LINKS": {
+            "AVATAR": "link del avatar",
+            "HOME_URL": "link del usuario"
+        }
+    },
+    "PAGINATOR": {
+        "ITEMS_PER_PAGE": "Elementos",
+        "FIRST_PAGE": "Primer Pagina",
+        "LAST_PAGE": "Ultima Pagina",
+        "PREV_PAGE": "Pagina Anterior",
+        "NEXT_PAGE": "Pagina siguiente",
+        "RANGE": "Pagina {{first}} de {{last}}"
+    }
+}

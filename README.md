@@ -38,7 +38,7 @@ Added the possibility to see a detail of the selected user
 Application was developes using the mobile first approach
 ![mobile](https://raw.githubusercontent.com/cesar-garay/scalio-challenge/main/preview/mobile-view.PNG)
 
-And accesibility is other thing covered
+And accesibility is covered
 ![accesibility](https://raw.githubusercontent.com/cesar-garay/scalio-challenge/main/preview/desktop-accesibility.PNG)
 
 The unit test coverage
