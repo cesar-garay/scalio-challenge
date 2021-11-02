@@ -25,3 +25,21 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 This is a preview of the application
 ![desktop-view](https://raw.githubusercontent.com/cesar-garay/scalio-challenge/main/preview/desktop-view.PNG)
+
+There is an option to set darkmode based on angular material tools
+![desktop-view-raw](https://raw.githubusercontent.com/cesar-garay/scalio-challenge/main/preview/desktop-view-dark.PNG)
+
+Multilanguage is supprted (spanish selected)
+![multilanguage](https://raw.githubusercontent.com/cesar-garay/scalio-challenge/main/preview/desktop-multilanguage.PNG)
+
+Added the possibility to see a detail of the selected user
+![details](https://raw.githubusercontent.com/cesar-garay/scalio-challenge/main/preview/desktop-details.PNG)
+
+Application was developes using the mobile first approach
+![mobile](https://raw.githubusercontent.com/cesar-garay/scalio-challenge/main/preview/mobile-view.PNG)
+
+And accesibility is other thing covered
+![accesibility](https://raw.githubusercontent.com/cesar-garay/scalio-challenge/main/preview/desktop-accesibility.PNG)
+
+The unit test coverage
+![coverage](https://raw.githubusercontent.com/cesar-garay/scalio-challenge/main/preview/coverage-evidence.PNG)
